@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6e4667198ae80894eab48db6fecd7593
+guid: ecda4266a68bf7b4e93905ec52c549e2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RRunSheet_0
+      name: RRunSheet 1_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1626
-        width: 542
-        height: 542
+        y: 1620
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab2f9d6c3e346674a8ba32e119922d5e
-      internalID: 121038202
+      spriteID: 8ff5b07c937133142a8aef6b9ad55043
+      internalID: -1563146774
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RRunSheet_1
+      name: RRunSheet 1_1
       rect:
         serializedVersion: 2
-        x: 542
-        y: 1626
-        width: 542
-        height: 542
+        x: 540
+        y: 1620
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 189a1447f4d592c449efc927a0b70dc9
-      internalID: 812256380
+      spriteID: b019e6d3717d37a469fee36ebe58a595
+      internalID: -331207875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RRunSheet_2
+      name: RRunSheet 1_2
       rect:
         serializedVersion: 2
-        x: 1084
-        y: 1626
-        width: 542
-        height: 542
+        x: 1080
+        y: 1620
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8164f70a31c99f346944fb2cc157a6ed
-      internalID: -1953189767
+      spriteID: f7c9607b5cf59334b88d2ae58ff8ae5b
+      internalID: 1813129161
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RRunSheet_3
+      name: RRunSheet 1_3
       rect:
         serializedVersion: 2
-        x: 1626
-        y: 1626
-        width: 542
-        height: 542
+        x: 1620
+        y: 1620
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2c842471afe3974b890b5ac20da583d
-      internalID: -1975084098
+      spriteID: 9cd07ae28d01d4842897394c249cf79c
+      internalID: -2140553523
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RRunSheet_4
+      name: RRunSheet 1_4
       rect:
         serializedVersion: 2
-        x: 2168
-        y: 1626
-        width: 542
-        height: 542
+        x: 2160
+        y: 1620
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,125 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8864a01cdc6030746aa88e42227b31bf
-      internalID: 2083064505
+      spriteID: b4e522292ec8aa44eb0eaa0ef0063ba1
+      internalID: 874725636
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RRunSheet_5
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1084
-        width: 542
-        height: 542
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 38a4e387aa61ee04cbe046e78c4551ca
-      internalID: 1687699289
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RRunSheet_6
-      rect:
-        serializedVersion: 2
-        x: 542
-        y: 1084
-        width: 542
-        height: 542
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4307ab5429f488b41a0cd94f9e3d0760
-      internalID: 1254465018
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RRunSheet_7
-      rect:
-        serializedVersion: 2
-        x: 1084
-        y: 1084
-        width: 542
-        height: 542
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4f33446713c22bd46a0d967bd3f5a311
-      internalID: 1828899766
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RRunSheet_8
-      rect:
-        serializedVersion: 2
-        x: 1626
-        y: 1084
-        width: 542
-        height: 542
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ddd99b119a8b81747a33f86a47e6aa87
-      internalID: -2025298177
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RRunSheet_9
-      rect:
-        serializedVersion: 2
-        x: 2168
-        y: 1084
-        width: 542
-        height: 542
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d735495ecf7b1de4baa599e79d131afe
-      internalID: -1876273509
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RRunSheet_10
+      name: RRunSheet 1_5
       rect:
         serializedVersion: 2
         x: 0
-        y: 542
-        width: 542
-        height: 542
+        y: 1080
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f8bb042e2c839f45a3eafdca4c0b061
-      internalID: 324404501
+      spriteID: f5f4ab7c7e10f7848a782bfb626b11c1
+      internalID: -1218024390
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RRunSheet_11
+      name: RRunSheet 1_6
       rect:
         serializedVersion: 2
-        x: 542
-        y: 542
-        width: 542
-        height: 542
+        x: 540
+        y: 1080
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -350,20 +245,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 911faced75de72543ad2bd88a189c2e2
-      internalID: -1071746897
+      spriteID: e7bc7b25744d73343970bb2e7f4d1b5f
+      internalID: -1250959279
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RRunSheet_12
+      name: RRunSheet 1_7
       rect:
         serializedVersion: 2
-        x: 1084
-        y: 542
-        width: 542
-        height: 542
+        x: 1080
+        y: 1080
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,20 +266,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1be50820dcb880a4f82a672e6e17ae69
-      internalID: 664015893
+      spriteID: e499904b0636d2b4ea7a37b388d8373c
+      internalID: -1228655880
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RRunSheet_13
+      name: RRunSheet 1_8
       rect:
         serializedVersion: 2
-        x: 1626
-        y: 542
-        width: 542
-        height: 542
+        x: 1620
+        y: 1080
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -392,20 +287,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c18941f4fef36c34085d073afa077ab4
-      internalID: 1856031828
+      spriteID: c5366abe154ace5438b2ca7c83bac109
+      internalID: -1017117910
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RRunSheet_14
+      name: RRunSheet 1_9
       rect:
         serializedVersion: 2
-        x: 2168
-        y: 542
-        width: 542
-        height: 542
+        x: 2160
+        y: 1080
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -413,20 +308,125 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e92ed0e85a1bfd041baa603f6dda43f5
-      internalID: 620155688
+      spriteID: bbcd116f2d623ba48a7ffa8a7a5f22ce
+      internalID: 1308690634
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RRunSheet_15
+      name: RRunSheet 1_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 540
+        width: 540
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b79e4ee8bd91d3469c784788e598c47
+      internalID: 1859360918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RRunSheet 1_11
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 540
+        width: 540
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216d689c5f6e45046a02fc8e265c123e
+      internalID: 1842961107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RRunSheet 1_12
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 540
+        width: 540
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c98d36b27450f04293bd1431489b5f6
+      internalID: 567056564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RRunSheet 1_13
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 540
+        width: 540
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95eec6f6e2dddb34299e5586154caa47
+      internalID: 444099784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RRunSheet 1_14
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 540
+        width: 540
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f9f5cfb25d0a24e9fb5ece3807ff2e
+      internalID: 1775466909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RRunSheet 1_15
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 542
-        height: 542
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -434,20 +434,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ecbf5c462890ddc41b7247ab02512cbb
-      internalID: 122425713
+      spriteID: 4992a1cd40f08a74dab9546cea3875e8
+      internalID: -1782349209
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RRunSheet_16
+      name: RRunSheet 1_16
       rect:
         serializedVersion: 2
-        x: 542
+        x: 540
         y: 0
-        width: 542
-        height: 542
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -455,20 +455,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f6f1ac985ddb9b4884a28e4e5749abe
-      internalID: -993059289
+      spriteID: 497556a7eec27284db92a2985e1c8a8a
+      internalID: -1522294986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RRunSheet_17
+      name: RRunSheet 1_17
       rect:
         serializedVersion: 2
-        x: 1084
+        x: 1080
         y: 0
-        width: 542
-        height: 542
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -476,20 +476,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6159afb2ffa652b498cbe8e2c96c3956
-      internalID: -1123052920
+      spriteID: 35f5ac87410d2b940beb79dabd55cbea
+      internalID: 396682320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RRunSheet_18
+      name: RRunSheet 1_18
       rect:
         serializedVersion: 2
-        x: 1626
+        x: 1620
         y: 0
-        width: 542
-        height: 542
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -497,29 +497,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 130cca9906006df4599b881a17d5547c
-      internalID: 467677581
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RRunSheet_19
-      rect:
-        serializedVersion: 2
-        x: 2168
-        y: 0
-        width: 542
-        height: 542
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 808bb6632329ded4cb6cc4556752f12f
-      internalID: -1499238624
+      spriteID: f5a4392b04bedf4408e7bd06361891ed
+      internalID: -1104078488
       vertices: []
       indices: 
       edges: []
@@ -527,7 +506,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: bff5cd31c7077f5418eff5d7e2e2a7a5
+    spriteID: cd1adc6f55756ac40827fc3e814ac865
     internalID: 0
     vertices: []
     indices: 
@@ -535,26 +514,25 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      RRunSheet_0: 121038202
-      RRunSheet_1: 812256380
-      RRunSheet_10: 324404501
-      RRunSheet_11: -1071746897
-      RRunSheet_12: 664015893
-      RRunSheet_13: 1856031828
-      RRunSheet_14: 620155688
-      RRunSheet_15: 122425713
-      RRunSheet_16: -993059289
-      RRunSheet_17: -1123052920
-      RRunSheet_18: 467677581
-      RRunSheet_19: -1499238624
-      RRunSheet_2: -1953189767
-      RRunSheet_3: -1975084098
-      RRunSheet_4: 2083064505
-      RRunSheet_5: 1687699289
-      RRunSheet_6: 1254465018
-      RRunSheet_7: 1828899766
-      RRunSheet_8: -2025298177
-      RRunSheet_9: -1876273509
+      RRunSheet 1_0: -1563146774
+      RRunSheet 1_1: -331207875
+      RRunSheet 1_10: 1859360918
+      RRunSheet 1_11: 1842961107
+      RRunSheet 1_12: 567056564
+      RRunSheet 1_13: 444099784
+      RRunSheet 1_14: 1775466909
+      RRunSheet 1_15: -1782349209
+      RRunSheet 1_16: -1522294986
+      RRunSheet 1_17: 396682320
+      RRunSheet 1_18: -1104078488
+      RRunSheet 1_2: 1813129161
+      RRunSheet 1_3: -2140553523
+      RRunSheet 1_4: 874725636
+      RRunSheet 1_5: -1218024390
+      RRunSheet 1_6: -1250959279
+      RRunSheet 1_7: -1228655880
+      RRunSheet 1_8: -1017117910
+      RRunSheet 1_9: 1308690634
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

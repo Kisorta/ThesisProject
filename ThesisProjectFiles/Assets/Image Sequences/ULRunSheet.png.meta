@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 68de50dcb27e6824fbc58936064eaf38
+guid: 37e3e6065370a6642868fa57dd64c8e1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -109,9 +109,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1626
-        width: 542
-        height: 542
+        y: 1620
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d37ef26f3d028241bc59e8e0b5c6ca1
-      internalID: -1024163137
+      spriteID: b0b68d23514b3ad48826cb1fcf922437
+      internalID: -1884913170
       vertices: []
       indices: 
       edges: []
@@ -129,10 +129,10 @@ TextureImporter:
       name: ULRunSheet_1
       rect:
         serializedVersion: 2
-        x: 542
-        y: 1626
-        width: 542
-        height: 542
+        x: 540
+        y: 1620
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c27047f2c36a82e408faea2d8c39d23c
-      internalID: 1412635464
+      spriteID: 817c091538d7b5f408ad5443282bc892
+      internalID: -1654352271
       vertices: []
       indices: 
       edges: []
@@ -150,10 +150,10 @@ TextureImporter:
       name: ULRunSheet_2
       rect:
         serializedVersion: 2
-        x: 1084
-        y: 1626
-        width: 542
-        height: 542
+        x: 1080
+        y: 1620
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,8 +161,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35bb004f8c764a24399d0d978448b82f
-      internalID: -1089769048
+      spriteID: 1e066abd2d4b4b94995a453ad81da5be
+      internalID: -154932049
       vertices: []
       indices: 
       edges: []
@@ -171,10 +171,10 @@ TextureImporter:
       name: ULRunSheet_3
       rect:
         serializedVersion: 2
-        x: 1626
-        y: 1626
-        width: 542
-        height: 542
+        x: 1620
+        y: 1620
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,8 +182,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb359f4ea2a5f6743a94ec2bc4213dd8
-      internalID: -1591012481
+      spriteID: deb3dfd93b53e494a8f237f5cd6f1788
+      internalID: 323670980
       vertices: []
       indices: 
       edges: []
@@ -192,10 +192,10 @@ TextureImporter:
       name: ULRunSheet_4
       rect:
         serializedVersion: 2
-        x: 2168
-        y: 1626
-        width: 542
-        height: 542
+        x: 2160
+        y: 1620
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,8 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36cc7a537afbd9c4092b18fc55a7953b
-      internalID: 1378839845
+      spriteID: 2520867712a38af4fbc321f6a389a6b8
+      internalID: -36356918
       vertices: []
       indices: 
       edges: []
@@ -214,9 +214,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1084
-        width: 542
-        height: 542
+        y: 1080
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,8 +224,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e75cca9e7f56c04c87cba1223d36182
-      internalID: -2097679048
+      spriteID: b9df7f42780460c478fe4789a05e7c90
+      internalID: -1493998087
       vertices: []
       indices: 
       edges: []
@@ -234,10 +234,10 @@ TextureImporter:
       name: ULRunSheet_6
       rect:
         serializedVersion: 2
-        x: 542
-        y: 1084
-        width: 542
-        height: 542
+        x: 540
+        y: 1080
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,8 +245,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c09d97ec25b68524a80bf76eb53a3766
-      internalID: 1267345047
+      spriteID: 16d91d404f1b03a46811838efc01ec04
+      internalID: 797497512
       vertices: []
       indices: 
       edges: []
@@ -255,10 +255,10 @@ TextureImporter:
       name: ULRunSheet_7
       rect:
         serializedVersion: 2
-        x: 1084
-        y: 1084
-        width: 542
-        height: 542
+        x: 1080
+        y: 1080
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,8 +266,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffaff0a5a89c0f74c8569ce009d4a5d1
-      internalID: -1882955643
+      spriteID: e513ee8fdb4166b418f62a9ac149ec5c
+      internalID: 878069562
       vertices: []
       indices: 
       edges: []
@@ -276,10 +276,10 @@ TextureImporter:
       name: ULRunSheet_8
       rect:
         serializedVersion: 2
-        x: 1626
-        y: 1084
-        width: 542
-        height: 542
+        x: 1620
+        y: 1080
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,8 +287,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a38d64fcfd11e0046a469ed3e458cc71
-      internalID: -1569186707
+      spriteID: 4fb1a6188b424644bb3ea98067488383
+      internalID: -1176479907
       vertices: []
       indices: 
       edges: []
@@ -297,10 +297,10 @@ TextureImporter:
       name: ULRunSheet_9
       rect:
         serializedVersion: 2
-        x: 2168
-        y: 1084
-        width: 542
-        height: 542
+        x: 2160
+        y: 1080
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,8 +308,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8670d5ae050d12a45ba240142eafa686
-      internalID: -587967669
+      spriteID: f7b1edc3b8e62bc4b8e28e2c3c0e9b08
+      internalID: 1504865332
       vertices: []
       indices: 
       edges: []
@@ -319,9 +319,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 542
-        width: 542
-        height: 542
+        y: 540
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,8 +329,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 836fcb9dadfed3e4290949e324881de6
-      internalID: -690342742
+      spriteID: c3d25134b2a19b74bb449fc2dcccc03c
+      internalID: -560396019
       vertices: []
       indices: 
       edges: []
@@ -339,10 +339,10 @@ TextureImporter:
       name: ULRunSheet_11
       rect:
         serializedVersion: 2
-        x: 542
-        y: 542
-        width: 542
-        height: 542
+        x: 540
+        y: 540
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -350,8 +350,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b94441ab2d125714fabdc526a9884298
-      internalID: -1824882220
+      spriteID: 2eb9b89eb42a54a4f9f5709443f458d5
+      internalID: -1497011250
       vertices: []
       indices: 
       edges: []
@@ -360,10 +360,10 @@ TextureImporter:
       name: ULRunSheet_12
       rect:
         serializedVersion: 2
-        x: 1084
-        y: 542
-        width: 542
-        height: 542
+        x: 1080
+        y: 540
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,8 +371,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8a59113d52cb48419237073b0d9c9fc
-      internalID: -950277894
+      spriteID: cf4426bbeb3ef304081c311ab6037deb
+      internalID: 926918313
       vertices: []
       indices: 
       edges: []
@@ -381,10 +381,10 @@ TextureImporter:
       name: ULRunSheet_13
       rect:
         serializedVersion: 2
-        x: 1626
-        y: 542
-        width: 542
-        height: 542
+        x: 1620
+        y: 540
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -392,8 +392,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e18cbefcfae9544489182b30eb7bde0
-      internalID: -2024615114
+      spriteID: 830162053544b64479421b79b0a22646
+      internalID: 692010035
       vertices: []
       indices: 
       edges: []
@@ -402,10 +402,10 @@ TextureImporter:
       name: ULRunSheet_14
       rect:
         serializedVersion: 2
-        x: 2168
-        y: 542
-        width: 542
-        height: 542
+        x: 2160
+        y: 540
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -413,8 +413,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef2790d141c48d447a2545885d140cb2
-      internalID: -1463802276
+      spriteID: d3dd98eebc565c44c87e8b8ca02821f5
+      internalID: 1267094884
       vertices: []
       indices: 
       edges: []
@@ -425,8 +425,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 542
-        height: 542
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -434,8 +434,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ea5d40be7179ae4c8bdc3020596d423
-      internalID: 1787883610
+      spriteID: 8b2da1a8fb35e7549962a4bb7f7d60df
+      internalID: 1686470861
       vertices: []
       indices: 
       edges: []
@@ -444,10 +444,10 @@ TextureImporter:
       name: ULRunSheet_16
       rect:
         serializedVersion: 2
-        x: 542
+        x: 540
         y: 0
-        width: 542
-        height: 542
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -455,8 +455,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3acfcfc2e9085146b89e1941b47d741
-      internalID: 1380843755
+      spriteID: 14f88f7eb6c8dfb449b794bb6b9a5d57
+      internalID: -825197820
       vertices: []
       indices: 
       edges: []
@@ -465,10 +465,10 @@ TextureImporter:
       name: ULRunSheet_17
       rect:
         serializedVersion: 2
-        x: 1084
+        x: 1080
         y: 0
-        width: 542
-        height: 542
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -476,8 +476,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ff70d7638ebf784f98eeb7b2ceb58fc
-      internalID: -2038954272
+      spriteID: 259d17395bb66364b9ac5aa161518eb5
+      internalID: 227497598
       vertices: []
       indices: 
       edges: []
@@ -486,10 +486,10 @@ TextureImporter:
       name: ULRunSheet_18
       rect:
         serializedVersion: 2
-        x: 1626
+        x: 1620
         y: 0
-        width: 542
-        height: 542
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -497,29 +497,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b249978fcd057140a6493382fbf7bd0
-      internalID: -1969891736
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ULRunSheet_19
-      rect:
-        serializedVersion: 2
-        x: 2168
-        y: 0
-        width: 542
-        height: 542
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 04cc37326d4602046895e4df4379cd9b
-      internalID: -874120180
+      spriteID: de56a2dd341931d45a1c32a5b072f00a
+      internalID: -870914512
       vertices: []
       indices: 
       edges: []
@@ -527,7 +506,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 83b9359f600a49143a9ce2d3f8564e89
+    spriteID: 43f530fe75d349c428269fbfbe8214e6
     internalID: 0
     vertices: []
     indices: 
@@ -535,26 +514,25 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ULRunSheet_0: -1024163137
-      ULRunSheet_1: 1412635464
-      ULRunSheet_10: -690342742
-      ULRunSheet_11: -1824882220
-      ULRunSheet_12: -950277894
-      ULRunSheet_13: -2024615114
-      ULRunSheet_14: -1463802276
-      ULRunSheet_15: 1787883610
-      ULRunSheet_16: 1380843755
-      ULRunSheet_17: -2038954272
-      ULRunSheet_18: -1969891736
-      ULRunSheet_19: -874120180
-      ULRunSheet_2: -1089769048
-      ULRunSheet_3: -1591012481
-      ULRunSheet_4: 1378839845
-      ULRunSheet_5: -2097679048
-      ULRunSheet_6: 1267345047
-      ULRunSheet_7: -1882955643
-      ULRunSheet_8: -1569186707
-      ULRunSheet_9: -587967669
+      ULRunSheet_0: -1884913170
+      ULRunSheet_1: -1654352271
+      ULRunSheet_10: -560396019
+      ULRunSheet_11: -1497011250
+      ULRunSheet_12: 926918313
+      ULRunSheet_13: 692010035
+      ULRunSheet_14: 1267094884
+      ULRunSheet_15: 1686470861
+      ULRunSheet_16: -825197820
+      ULRunSheet_17: 227497598
+      ULRunSheet_18: -870914512
+      ULRunSheet_2: -154932049
+      ULRunSheet_3: 323670980
+      ULRunSheet_4: -36356918
+      ULRunSheet_5: -1493998087
+      ULRunSheet_6: 797497512
+      ULRunSheet_7: 878069562
+      ULRunSheet_8: -1176479907
+      ULRunSheet_9: 1504865332
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

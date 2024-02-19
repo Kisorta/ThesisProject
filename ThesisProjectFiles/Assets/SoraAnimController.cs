@@ -15,7 +15,7 @@ public class SoraAnimController : MonoBehaviour
         movementInput.y = Keyboard.current.upArrowKey.isPressed || Keyboard.current.wKey.isPressed ? 1f : (Keyboard.current.downArrowKey.isPressed || Keyboard.current.sKey.isPressed ? -1f : 0f);
 
         // Add controller input (left stick) to movement input
-        movementInput += Gamepad.current.leftStick.ReadValue();
+        //movementInput += Gamepad.current.leftStick.ReadValue();
 
         // Set animator parameters based on movement input
         if (movementInput.magnitude > 0)

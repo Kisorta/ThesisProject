@@ -1032,7 +1032,7 @@ SpriteRenderer:
   m_Size: {x: 11.44, y: 14}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1983502625
@@ -1564,7 +1564,7 @@ MonoBehaviour:
   m_Follow: {fileID: 8338988565591873055}
   m_Lens:
     FieldOfView: 14.95
-    OrthographicSize: 2.9
+    OrthographicSize: 1.96
     NearClipPlane: 0.2
     FarClipPlane: 500
     Dutch: 0
@@ -4196,7 +4196,7 @@ Camera:
   far clip plane: 500
   field of view: 14.95
   orthographic: 1
-  orthographic size: 2.9
+  orthographic size: 1.96
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

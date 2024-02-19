@@ -67,10 +67,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -109,9 +109,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1626
-        width: 542
-        height: 542
+        y: 1620
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bcec3b04749c3741b3dec77ec350662
-      internalID: -1333767321
+      spriteID: c514af72cbad6aa49a84c0533ebd2c33
+      internalID: 488382278
       vertices: []
       indices: 
       edges: []
@@ -129,10 +129,10 @@ TextureImporter:
       name: URRunSheet_1
       rect:
         serializedVersion: 2
-        x: 542
-        y: 1626
-        width: 542
-        height: 542
+        x: 540
+        y: 1620
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ff4949062515a147b8535679ecc70f3
-      internalID: -794024507
+      spriteID: 110e215e7088a2846a10d3f3d0206b63
+      internalID: -1091430743
       vertices: []
       indices: 
       edges: []
@@ -150,10 +150,10 @@ TextureImporter:
       name: URRunSheet_2
       rect:
         serializedVersion: 2
-        x: 1084
-        y: 1626
-        width: 542
-        height: 542
+        x: 1080
+        y: 1620
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,8 +161,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 548c08e4d8307cf449c50c10582cc726
-      internalID: -200048275
+      spriteID: c4fee0d8f074d614da7841eb0ce1db84
+      internalID: -1473971950
       vertices: []
       indices: 
       edges: []
@@ -171,10 +171,10 @@ TextureImporter:
       name: URRunSheet_3
       rect:
         serializedVersion: 2
-        x: 1626
-        y: 1626
-        width: 542
-        height: 542
+        x: 1620
+        y: 1620
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,8 +182,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb34837459fadea4b9ee19665d95f9e6
-      internalID: 344532772
+      spriteID: 0f74f209026c23f4ab952db4f6a15302
+      internalID: -2089569779
       vertices: []
       indices: 
       edges: []
@@ -192,10 +192,10 @@ TextureImporter:
       name: URRunSheet_4
       rect:
         serializedVersion: 2
-        x: 2168
-        y: 1626
-        width: 542
-        height: 542
+        x: 2160
+        y: 1620
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,8 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdb57585b6596834fbfefc7a86d64652
-      internalID: 1389033043
+      spriteID: d9a10eabcd38efa438a5731a3290593d
+      internalID: 1476037593
       vertices: []
       indices: 
       edges: []
@@ -214,9 +214,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1084
-        width: 542
-        height: 542
+        y: 1080
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,8 +224,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11b8afb20158645449c038c19a452d3d
-      internalID: -1412435984
+      spriteID: 473e792b9c8e785418b47142b108247c
+      internalID: 1251394483
       vertices: []
       indices: 
       edges: []
@@ -234,10 +234,10 @@ TextureImporter:
       name: URRunSheet_6
       rect:
         serializedVersion: 2
-        x: 542
-        y: 1084
-        width: 542
-        height: 542
+        x: 540
+        y: 1080
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,8 +245,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0b652193c0c038439eba352fecad3b1
-      internalID: -1915275284
+      spriteID: ab65f2fc83a24c14d905dcf2ff764b0a
+      internalID: -66640212
       vertices: []
       indices: 
       edges: []
@@ -255,10 +255,10 @@ TextureImporter:
       name: URRunSheet_7
       rect:
         serializedVersion: 2
-        x: 1084
-        y: 1084
-        width: 542
-        height: 542
+        x: 1080
+        y: 1080
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,8 +266,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c0fe248393527e44a9b038852045558
-      internalID: 950080121
+      spriteID: 61eb68bfd20bbd04b9e5f8a00b034ccc
+      internalID: -427356500
       vertices: []
       indices: 
       edges: []
@@ -276,10 +276,10 @@ TextureImporter:
       name: URRunSheet_8
       rect:
         serializedVersion: 2
-        x: 1626
-        y: 1084
-        width: 542
-        height: 542
+        x: 1620
+        y: 1080
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,8 +287,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b936ba18081e2194d8175bfc02020cd3
-      internalID: -1700167706
+      spriteID: e4abcb6a762eac64ebcb47f7754cebd7
+      internalID: 155400656
       vertices: []
       indices: 
       edges: []
@@ -297,10 +297,10 @@ TextureImporter:
       name: URRunSheet_9
       rect:
         serializedVersion: 2
-        x: 2168
-        y: 1084
-        width: 542
-        height: 542
+        x: 2160
+        y: 1080
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,8 +308,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d55d9ac8bbfa3643b9ba0b366a04906
-      internalID: 1854405700
+      spriteID: 5bbf624774e65f7448911f9341db44b1
+      internalID: 1190494118
       vertices: []
       indices: 
       edges: []
@@ -319,9 +319,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 542
-        width: 542
-        height: 542
+        y: 540
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,8 +329,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1be8fcd94ed48154c9a0f8f84b51baeb
-      internalID: 726249777
+      spriteID: 491821e5b5ff5de46829bc0abd496d1e
+      internalID: -1993423094
       vertices: []
       indices: 
       edges: []
@@ -339,10 +339,10 @@ TextureImporter:
       name: URRunSheet_11
       rect:
         serializedVersion: 2
-        x: 542
-        y: 542
-        width: 542
-        height: 542
+        x: 540
+        y: 540
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -350,8 +350,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a96aaabf372229478da726a2d997d28
-      internalID: -1615878130
+      spriteID: 036473c1c41921d40834ae341a8be5d5
+      internalID: 750931645
       vertices: []
       indices: 
       edges: []
@@ -360,10 +360,10 @@ TextureImporter:
       name: URRunSheet_12
       rect:
         serializedVersion: 2
-        x: 1084
-        y: 542
-        width: 542
-        height: 542
+        x: 1080
+        y: 540
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,8 +371,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 992a3b28ce12cf84e9b8d7fb55b88ebb
-      internalID: 125968858
+      spriteID: e7c194510d347404fa3511ed5ab77ceb
+      internalID: -1622533512
       vertices: []
       indices: 
       edges: []
@@ -381,10 +381,10 @@ TextureImporter:
       name: URRunSheet_13
       rect:
         serializedVersion: 2
-        x: 1626
-        y: 542
-        width: 542
-        height: 542
+        x: 1620
+        y: 540
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -392,8 +392,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c729291283461cc479dfe80000460f6f
-      internalID: -1651404201
+      spriteID: 1134407c5ed04664d85f6b11ccc1574a
+      internalID: 1795504797
       vertices: []
       indices: 
       edges: []
@@ -402,10 +402,10 @@ TextureImporter:
       name: URRunSheet_14
       rect:
         serializedVersion: 2
-        x: 2168
-        y: 542
-        width: 542
-        height: 542
+        x: 2160
+        y: 540
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -413,8 +413,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2bdf0ef287ab03489004b76837934d0
-      internalID: -1663643959
+      spriteID: 1bd9a9d2c84ed134da52351119671e7c
+      internalID: 215566145
       vertices: []
       indices: 
       edges: []
@@ -425,8 +425,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 542
-        height: 542
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -434,8 +434,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66f46e4164155674a992e0f2acdd8073
-      internalID: -479756192
+      spriteID: c2ff9798f05cf264bafbebcc422ab6bf
+      internalID: 1298084776
       vertices: []
       indices: 
       edges: []
@@ -444,10 +444,10 @@ TextureImporter:
       name: URRunSheet_16
       rect:
         serializedVersion: 2
-        x: 542
+        x: 540
         y: 0
-        width: 542
-        height: 542
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -455,8 +455,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f77748ab4f1631f4d9e33541db94c207
-      internalID: 894729011
+      spriteID: f37340d1a2775cc4c8644fc824cf77ea
+      internalID: 1700365815
       vertices: []
       indices: 
       edges: []
@@ -465,10 +465,10 @@ TextureImporter:
       name: URRunSheet_17
       rect:
         serializedVersion: 2
-        x: 1084
+        x: 1080
         y: 0
-        width: 542
-        height: 542
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -476,8 +476,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f337c4c8cac11d9409f4799e49553fb2
-      internalID: 1840959411
+      spriteID: 72f9757e5f84b5844b312cb374e67a2b
+      internalID: -1163791395
       vertices: []
       indices: 
       edges: []
@@ -486,10 +486,10 @@ TextureImporter:
       name: URRunSheet_18
       rect:
         serializedVersion: 2
-        x: 1626
+        x: 1620
         y: 0
-        width: 542
-        height: 542
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -497,29 +497,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34b62279862fd684cadf67d3823bb699
-      internalID: -1435976949
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: URRunSheet_19
-      rect:
-        serializedVersion: 2
-        x: 2168
-        y: 0
-        width: 542
-        height: 542
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 79db797b68756b14090f5e491fe7edc3
-      internalID: -1815736716
+      spriteID: 2f24761ab78eb364b863a52ef1372deb
+      internalID: -1942358047
       vertices: []
       indices: 
       edges: []
@@ -527,7 +506,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5843cbc30742b2e478198b6eecc739de
+    spriteID: b05b0f91b1a13704ab9854c3f4b0c441
     internalID: 0
     vertices: []
     indices: 
@@ -535,26 +514,25 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      URRunSheet_0: -1333767321
-      URRunSheet_1: -794024507
-      URRunSheet_10: 726249777
-      URRunSheet_11: -1615878130
-      URRunSheet_12: 125968858
-      URRunSheet_13: -1651404201
-      URRunSheet_14: -1663643959
-      URRunSheet_15: -479756192
-      URRunSheet_16: 894729011
-      URRunSheet_17: 1840959411
-      URRunSheet_18: -1435976949
-      URRunSheet_19: -1815736716
-      URRunSheet_2: -200048275
-      URRunSheet_3: 344532772
-      URRunSheet_4: 1389033043
-      URRunSheet_5: -1412435984
-      URRunSheet_6: -1915275284
-      URRunSheet_7: 950080121
-      URRunSheet_8: -1700167706
-      URRunSheet_9: 1854405700
+      URRunSheet_0: 488382278
+      URRunSheet_1: -1091430743
+      URRunSheet_10: -1993423094
+      URRunSheet_11: 750931645
+      URRunSheet_12: -1622533512
+      URRunSheet_13: 1795504797
+      URRunSheet_14: 215566145
+      URRunSheet_15: 1298084776
+      URRunSheet_16: 1700365815
+      URRunSheet_17: -1163791395
+      URRunSheet_18: -1942358047
+      URRunSheet_2: -1473971950
+      URRunSheet_3: -2089569779
+      URRunSheet_4: 1476037593
+      URRunSheet_5: 1251394483
+      URRunSheet_6: -66640212
+      URRunSheet_7: -427356500
+      URRunSheet_8: 155400656
+      URRunSheet_9: 1190494118
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -109,9 +109,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1626
-        width: 542
-        height: 542
+        y: 1620
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c453ec2d58e6e6645a7170aee0a84f84
-      internalID: -2009902290
+      spriteID: 213348f6a8c93da4c99c855703ce325a
+      internalID: 1361603452
       vertices: []
       indices: 
       edges: []
@@ -129,10 +129,10 @@ TextureImporter:
       name: DRunSheet_1
       rect:
         serializedVersion: 2
-        x: 542
-        y: 1626
-        width: 542
-        height: 542
+        x: 540
+        y: 1620
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e915126b48da6f7428094b80e6b99e2b
-      internalID: 1790491222
+      spriteID: 71d20787bcb5c794ab15e1b4e889682c
+      internalID: -1923098340
       vertices: []
       indices: 
       edges: []
@@ -150,10 +150,10 @@ TextureImporter:
       name: DRunSheet_2
       rect:
         serializedVersion: 2
-        x: 1084
-        y: 1626
-        width: 542
-        height: 542
+        x: 1080
+        y: 1620
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,8 +161,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9be64b8eae271c14983f1033968660d0
-      internalID: 1091796779
+      spriteID: d17d16e03f3fba547a5e40cca259840e
+      internalID: -1648897461
       vertices: []
       indices: 
       edges: []
@@ -171,10 +171,10 @@ TextureImporter:
       name: DRunSheet_3
       rect:
         serializedVersion: 2
-        x: 1626
-        y: 1626
-        width: 542
-        height: 542
+        x: 1620
+        y: 1620
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,8 +182,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bbf7a5966ebdcc4abf0977e140c33f7
-      internalID: -1224637779
+      spriteID: 2bcfd13ddbd05c949967b317151a3231
+      internalID: -366245765
       vertices: []
       indices: 
       edges: []
@@ -192,10 +192,10 @@ TextureImporter:
       name: DRunSheet_4
       rect:
         serializedVersion: 2
-        x: 2168
-        y: 1626
-        width: 542
-        height: 542
+        x: 2160
+        y: 1620
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,8 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8e010d611442074da261de1314baadd
-      internalID: -959643448
+      spriteID: 9b0984ec90d23a444b38f2dcd33efa35
+      internalID: 355940757
       vertices: []
       indices: 
       edges: []
@@ -214,9 +214,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1084
-        width: 542
-        height: 542
+        y: 1080
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,8 +224,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a8b4f40fd625fe43aa2b18978ddf9f6
-      internalID: -158079295
+      spriteID: 044ad96f4a04c564fbb9adc4277fbbe9
+      internalID: 1338751709
       vertices: []
       indices: 
       edges: []
@@ -234,10 +234,10 @@ TextureImporter:
       name: DRunSheet_6
       rect:
         serializedVersion: 2
-        x: 542
-        y: 1084
-        width: 542
-        height: 542
+        x: 540
+        y: 1080
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,8 +245,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aaa1dbc32be5f264397eb5eb81bc6575
-      internalID: 647078143
+      spriteID: 6a0576826ed15db439655fc312a1c548
+      internalID: -512717666
       vertices: []
       indices: 
       edges: []
@@ -255,10 +255,10 @@ TextureImporter:
       name: DRunSheet_7
       rect:
         serializedVersion: 2
-        x: 1084
-        y: 1084
-        width: 542
-        height: 542
+        x: 1080
+        y: 1080
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,8 +266,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b1c07ddc4269fb4aac121ca2a387d19
-      internalID: -1560455533
+      spriteID: 00910769f0bb3904f8a1649583e049ba
+      internalID: -1162938012
       vertices: []
       indices: 
       edges: []
@@ -276,10 +276,10 @@ TextureImporter:
       name: DRunSheet_8
       rect:
         serializedVersion: 2
-        x: 1626
-        y: 1084
-        width: 542
-        height: 542
+        x: 1620
+        y: 1080
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,8 +287,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a01581f62122aa1419751c1737553207
-      internalID: -532164546
+      spriteID: 6b09ea1ff3f2ef04e9bef5a32087fb45
+      internalID: -1392899467
       vertices: []
       indices: 
       edges: []
@@ -297,10 +297,10 @@ TextureImporter:
       name: DRunSheet_9
       rect:
         serializedVersion: 2
-        x: 2168
-        y: 1084
-        width: 542
-        height: 542
+        x: 2160
+        y: 1080
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,8 +308,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1cbb7305ed5f6c24d85a785b03e36086
-      internalID: 1891174914
+      spriteID: ad23002e2fb1235498de383b05ba8772
+      internalID: -1187126523
       vertices: []
       indices: 
       edges: []
@@ -319,9 +319,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 542
-        width: 542
-        height: 542
+        y: 540
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,8 +329,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc60623824c7cd64f929960fbff92c53
-      internalID: -1726477359
+      spriteID: 8253b7bd56a39be40a4ff505953ad5f7
+      internalID: -1110859956
       vertices: []
       indices: 
       edges: []
@@ -339,10 +339,10 @@ TextureImporter:
       name: DRunSheet_11
       rect:
         serializedVersion: 2
-        x: 542
-        y: 542
-        width: 542
-        height: 542
+        x: 540
+        y: 540
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -350,8 +350,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 535b3bfab3eac074e9cd54b67be6cc0f
-      internalID: 1950986715
+      spriteID: 0d456b06caab3a14b960ecc1bb79aa00
+      internalID: 2086181520
       vertices: []
       indices: 
       edges: []
@@ -360,10 +360,10 @@ TextureImporter:
       name: DRunSheet_12
       rect:
         serializedVersion: 2
-        x: 1084
-        y: 542
-        width: 542
-        height: 542
+        x: 1080
+        y: 540
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,8 +371,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afbb7c4ecbf634d4dadee35909a814da
-      internalID: -1418655153
+      spriteID: 4fccca8a59ca48a42a4702adef657702
+      internalID: -1234882067
       vertices: []
       indices: 
       edges: []
@@ -381,10 +381,10 @@ TextureImporter:
       name: DRunSheet_13
       rect:
         serializedVersion: 2
-        x: 1626
-        y: 542
-        width: 542
-        height: 542
+        x: 1620
+        y: 540
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -392,8 +392,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66e98df231e49b94a82c328764f0fa35
-      internalID: -1739933647
+      spriteID: 3caa5c416bc86c841a8f219d08662365
+      internalID: -1908413172
       vertices: []
       indices: 
       edges: []
@@ -402,10 +402,10 @@ TextureImporter:
       name: DRunSheet_14
       rect:
         serializedVersion: 2
-        x: 2168
-        y: 542
-        width: 542
-        height: 542
+        x: 2160
+        y: 540
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -413,8 +413,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e73f343cd930074295e86e7dc9ab16c
-      internalID: 878912996
+      spriteID: 8974acdbbe0fddf4db9002d730d638ae
+      internalID: -1803061375
       vertices: []
       indices: 
       edges: []
@@ -425,8 +425,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 542
-        height: 542
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -434,8 +434,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7039b44f921902a41a85e8e5c5e95ca2
-      internalID: -1967562445
+      spriteID: 5242a8c60d02e344cbfcf4aced6bc4b8
+      internalID: -484599405
       vertices: []
       indices: 
       edges: []
@@ -444,10 +444,10 @@ TextureImporter:
       name: DRunSheet_16
       rect:
         serializedVersion: 2
-        x: 542
+        x: 540
         y: 0
-        width: 542
-        height: 542
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -455,8 +455,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa06ab34c609579479767a828e28fee6
-      internalID: -133290235
+      spriteID: f59b06d30279fb54b8083c2ad7574bd5
+      internalID: 911201105
       vertices: []
       indices: 
       edges: []
@@ -465,10 +465,10 @@ TextureImporter:
       name: DRunSheet_17
       rect:
         serializedVersion: 2
-        x: 1084
+        x: 1080
         y: 0
-        width: 542
-        height: 542
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -476,8 +476,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a445b7f0c3d031c4cb6bdc64f847274e
-      internalID: -762133219
+      spriteID: f920b93e5fc1466409cbb8025d46aac9
+      internalID: 81498227
       vertices: []
       indices: 
       edges: []
@@ -486,10 +486,10 @@ TextureImporter:
       name: DRunSheet_18
       rect:
         serializedVersion: 2
-        x: 1626
+        x: 1620
         y: 0
-        width: 542
-        height: 542
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -497,8 +497,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 947a885a2e3264c4fad2a24bbc6e0c9d
-      internalID: -1688244673
+      spriteID: 482aed488d0d7574c91893599b82336a
+      internalID: -106387495
       vertices: []
       indices: 
       edges: []
@@ -507,10 +507,10 @@ TextureImporter:
       name: DRunSheet_19
       rect:
         serializedVersion: 2
-        x: 2168
+        x: 2160
         y: 0
-        width: 542
-        height: 542
+        width: 540
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -518,8 +518,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcf0cc6f42a712d41a376e3fc185464b
-      internalID: 703398836
+      spriteID: 593d3a0fd0cd5994bbdfebb06c46ae7d
+      internalID: -995851859
       vertices: []
       indices: 
       edges: []
@@ -527,7 +527,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: bb594cee188fe7e499427fd6fd135ec1
+    spriteID: 7e23a9ab5f4b3554f8de738e73f05187
     internalID: 0
     vertices: []
     indices: 
@@ -535,26 +535,26 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      DRunSheet_0: -2009902290
-      DRunSheet_1: 1790491222
-      DRunSheet_10: -1726477359
-      DRunSheet_11: 1950986715
-      DRunSheet_12: -1418655153
-      DRunSheet_13: -1739933647
-      DRunSheet_14: 878912996
-      DRunSheet_15: -1967562445
-      DRunSheet_16: -133290235
-      DRunSheet_17: -762133219
-      DRunSheet_18: -1688244673
-      DRunSheet_19: 703398836
-      DRunSheet_2: 1091796779
-      DRunSheet_3: -1224637779
-      DRunSheet_4: -959643448
-      DRunSheet_5: -158079295
-      DRunSheet_6: 647078143
-      DRunSheet_7: -1560455533
-      DRunSheet_8: -532164546
-      DRunSheet_9: 1891174914
+      DRunSheet_0: 1361603452
+      DRunSheet_1: -1923098340
+      DRunSheet_10: -1110859956
+      DRunSheet_11: 2086181520
+      DRunSheet_12: -1234882067
+      DRunSheet_13: -1908413172
+      DRunSheet_14: -1803061375
+      DRunSheet_15: -484599405
+      DRunSheet_16: 911201105
+      DRunSheet_17: 81498227
+      DRunSheet_18: -106387495
+      DRunSheet_19: -995851859
+      DRunSheet_2: -1648897461
+      DRunSheet_3: -366245765
+      DRunSheet_4: 355940757
+      DRunSheet_5: 1338751709
+      DRunSheet_6: -512717666
+      DRunSheet_7: -1162938012
+      DRunSheet_8: -1392899467
+      DRunSheet_9: -1187126523
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
