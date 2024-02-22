@@ -12,6 +12,9 @@ public class DialogueManager : MonoBehaviour
     public AudioClip characterTextSound;
     public AudioSource audioSource;
 
+    // Reference to the next dialogue GameObject
+    public GameObject nextDialogue;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -53,5 +56,11 @@ public class DialogueManager : MonoBehaviour
 
         // If all lines are played, deactivate the dialogue manager
         gameObject.SetActive(false);
+
+        // Check if nextDialogue is not null before enabling it
+        if (nextDialogue != null)
+        {
+            nextDialogue.gameObject.SetActive(true);
+        }
     }
 }
