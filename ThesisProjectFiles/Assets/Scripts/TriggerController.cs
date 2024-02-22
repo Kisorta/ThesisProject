@@ -8,12 +8,14 @@ public class TriggerController : MonoBehaviour
     public GameObject deleteVideo;
     public float cutsceneLength;
     public DialogueManager dialogue;
+    public bool killMyself = false;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player")) // Check if the entering GameObject is the player
         {
             StartCoroutine(PlayCutscene());
+           
         }
     }
 
@@ -39,6 +41,11 @@ public class TriggerController : MonoBehaviour
         if (dialogue != null)
         {
             dialogue.gameObject.SetActive(true);
+        }
+        
+        if (killMyself == true) 
+        {
+            gameObject.SetActive(false);
         }
     }
 
