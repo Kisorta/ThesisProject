@@ -10,11 +10,11 @@ public class SoraAnimController : MonoBehaviour
 
     void Update()
     {
-        // Read input for movement direction using the new Input System
+        // Ternary operations :3 wowowowowow
         movementInput.x = Keyboard.current.leftArrowKey.isPressed || Keyboard.current.aKey.isPressed ? -1f : (Keyboard.current.rightArrowKey.isPressed || Keyboard.current.dKey.isPressed ? 1f : 0f);
         movementInput.y = Keyboard.current.upArrowKey.isPressed || Keyboard.current.wKey.isPressed ? 1f : (Keyboard.current.downArrowKey.isPressed || Keyboard.current.sKey.isPressed ? -1f : 0f);
 
-        // Add controller input (left stick) to movement input
+        // this is the gamepad input i need a null check here bc its having a stroke otherwise
         //movementInput += Gamepad.current.leftStick.ReadValue();
 
         // Set animator parameters based on movement input
