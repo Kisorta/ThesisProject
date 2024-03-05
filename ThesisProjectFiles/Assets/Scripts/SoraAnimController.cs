@@ -14,8 +14,10 @@ public class SoraAnimController : MonoBehaviour
         movementInput.x = Keyboard.current.leftArrowKey.isPressed || Keyboard.current.aKey.isPressed ? -1f : (Keyboard.current.rightArrowKey.isPressed || Keyboard.current.dKey.isPressed ? 1f : 0f);
         movementInput.y = Keyboard.current.upArrowKey.isPressed || Keyboard.current.wKey.isPressed ? 1f : (Keyboard.current.downArrowKey.isPressed || Keyboard.current.sKey.isPressed ? -1f : 0f);
 
-        // this is the gamepad input i need a null check here bc its having a stroke otherwise
-        //movementInput += Gamepad.current.leftStick.ReadValue();
+        if (Gamepad.current != null) //gamepad null check
+        {
+        movementInput += Gamepad.current.leftStick.ReadValue();
+        }
 
         // Set animator parameters based on movement input
         if (movementInput.magnitude > 0)
