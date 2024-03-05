@@ -90,6 +90,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   unitName: Soul Guardian
-  damage: 5
+  damage: 15
   maxHP: 555
   currentHP: 555

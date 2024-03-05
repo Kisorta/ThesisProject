@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
+
 
 public enum BattleState {START, PLAYERTURN, ENEMYTURN, WON, LOST }
 public class BattleSystem : MonoBehaviour
@@ -10,6 +12,9 @@ public class BattleSystem : MonoBehaviour
 
     public GameObject playerPrefab;
     public GameObject enemyPrefab;
+    public GameObject scytheAttacks;
+
+    public Animator attackThingamabob;
 
     public Transform playerBattleStation;
     public Transform enemyBattleStation;
@@ -23,6 +28,8 @@ public class BattleSystem : MonoBehaviour
 
 
     public BattleState state;
+    public string nextScene; 
+
 
     // Start is called before the first frame update
     void Start()
@@ -60,7 +67,14 @@ public class BattleSystem : MonoBehaviour
 
         dialogueText.text = "My attack hit!";
 
-        yield return new WaitForSeconds(2f);
+        scytheAttacks.SetActive(true);
+        attackThingamabob.SetBool("ScytheHit", true);
+        yield return new WaitForSeconds(1f);
+        attackThingamabob.SetBool("ScytheHit", false);
+
+        yield return new WaitForSeconds(1f);
+
+        scytheAttacks.SetActive(false);
 
         if (isDead)
         {
@@ -69,8 +83,32 @@ public class BattleSystem : MonoBehaviour
         }
         else
         {
+            state = BattleState.ENEMYTURN;
+            StartCoroutine(EnemyTurn());
+        }
+    }
+
+    IEnumerator EnemyTurn()
+    {
+        dialogueText.text = enemyUnit.unitName + " attacks you!";
+        yield return new WaitForSeconds(1f);
+        bool isDead = playerUnit.TakeDamage(enemyUnit.damage);
+        playerHUD.SetHP(playerUnit.currentHP);
+        yield return new WaitForSeconds(1f);
+        if (isDead)
+        {
             state = BattleState.LOST;
         }
+        else
+        {
+            state = BattleState.PLAYERTURN;
+            PlayerTurn();
+        }
+    }
+
+    void EndBattle()
+    {
+        SceneManager.LoadScene(nextScene);
     }
 
     void PlayerTurn()
