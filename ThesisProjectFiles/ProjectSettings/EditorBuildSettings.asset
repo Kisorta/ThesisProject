@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GuardFight.unity
     guid: 34a11714464d0024a8c44574af027fff
+  - enabled: 1
+    path: Assets/Scenes/SpaceFloating.unity
+    guid: 8291f19e5df19a8458eae7c1418c9967
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7,
       type: 2}

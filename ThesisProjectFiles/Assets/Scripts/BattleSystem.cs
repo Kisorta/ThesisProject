@@ -13,6 +13,8 @@ public class BattleSystem : MonoBehaviour
     public GameObject playerPrefab;
     public GameObject enemyPrefab;
     public GameObject scytheAttacks;
+    public GameObject webAttacks;
+
 
     public Animator attackThingamabob;
 
@@ -47,7 +49,7 @@ public class BattleSystem : MonoBehaviour
         GameObject enemyGO = Instantiate(enemyPrefab, enemyBattleStation);
         enemyUnit = enemyGO.GetComponent<Unit>();
 
-        dialogueText.text = enemyUnit.unitName + " blocks your path...";
+        dialogueText.text = enemyUnit.unitName + " blocks your path.....";
 
         playerHUD.SetHUD(playerUnit);
         enemyHUD.SetHUD(enemyUnit);
@@ -65,7 +67,7 @@ public class BattleSystem : MonoBehaviour
         bool isDead = enemyUnit.TakeDamage(playerUnit.damage);
         enemyHUD.SetHP(enemyUnit.currentHP);
 
-        dialogueText.text = "My attack hit!";
+        dialogueText.text = "Hell yeah, my attack hit!";
 
         scytheAttacks.SetActive(true);
         attackThingamabob.SetBool("ScytheHit", true);
@@ -90,11 +92,15 @@ public class BattleSystem : MonoBehaviour
 
     IEnumerator EnemyTurn()
     {
-        dialogueText.text = enemyUnit.unitName + " attacks you!";
+        dialogueText.text = enemyUnit.unitName + " attacks fivefold!!!!!";
+        webAttacks.SetActive(true);
+
         yield return new WaitForSeconds(1f);
         bool isDead = playerUnit.TakeDamage(enemyUnit.damage);
         playerHUD.SetHP(playerUnit.currentHP);
         yield return new WaitForSeconds(1f);
+        webAttacks.SetActive(false);
+
         if (isDead)
         {
             state = BattleState.LOST;
@@ -116,6 +122,18 @@ public class BattleSystem : MonoBehaviour
         dialogueText.text = "What do I do?: ";
     }
 
+    IEnumerator PlayerHeal()
+    {
+        playerUnit.Heal(20);
+        playerHUD.SetHP(playerUnit.currentHP);
+        dialogueText.text = "I focus my strength. I can feel my power growing!";
+        
+        yield return new WaitForSeconds (2f);
+
+        state = BattleState.ENEMYTURN;
+        StartCoroutine(EnemyTurn());
+    }
+
     public void OnAttackButton()
     {
         if (state != BattleState.PLAYERTURN)
@@ -124,4 +142,11 @@ public class BattleSystem : MonoBehaviour
         StartCoroutine(PlayerAttack());
     }
 
+    public void OnHealButton()
+    {
+        if (state != BattleState.PLAYERTURN)
+        return;
+
+        StartCoroutine(PlayerHeal());
+    }
 }
