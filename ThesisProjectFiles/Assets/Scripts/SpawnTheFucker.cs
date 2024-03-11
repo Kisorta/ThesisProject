@@ -10,21 +10,18 @@ public class SpawnTheFucker : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
         {
-            if (other.CompareTag("Player")) // Check if the entering GameObject is the player
+            if (other.CompareTag("Player")) 
             {
-                theFucker.SetActive(true);
+                StartCoroutine(WaitForFucker());
+
             }
         }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+      IEnumerator WaitForFucker()
+      {
+        yield return new WaitForSeconds(3f);
+        theFucker.SetActive(true);
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+      }
+
 }
