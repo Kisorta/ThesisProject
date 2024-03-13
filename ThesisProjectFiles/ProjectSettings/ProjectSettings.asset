@@ -14,7 +14,7 @@ PlayerSettings:
   accelerometerFrequency: 60
   companyName: Kenny Diaz
   productName: Statisys
-  defaultCursor: {fileID: 2800000, guid: 6d9d7ed10cb40654fb19292ab01b40f6, type: 3}
+  defaultCursor: {fileID: 2800000, guid: fbddbb5e7afa9104a9f7e9678d22219e, type: 3}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
   m_ShowUnitySplashScreen: 1
