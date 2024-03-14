@@ -113,7 +113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   unitName: Sora
-  damage: 80
+  damage: 90
   maxHP: 100
   currentHP: 100
 --- !u!95 &2013694390265990265
