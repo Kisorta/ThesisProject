@@ -2584,7 +2584,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &883244946
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4009,7 +4009,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TargetTexture
       value: 
-      objectReference: {fileID: 8400000, guid: 40e5171b4149fc84096800bbb1f87a13, type: 2}
+      objectReference: {fileID: 8400000, guid: 483082980e81da74e9d6fc6893a257cf, type: 2}
     - target: {fileID: 6064359426393866443, guid: c5df5bf96a588d942a4fff9d7b5a1878,
         type: 3}
       propertyPath: m_RootOrder
@@ -4432,7 +4432,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Texture
       value: 
-      objectReference: {fileID: 8400000, guid: 40e5171b4149fc84096800bbb1f87a13, type: 2}
+      objectReference: {fileID: 8400000, guid: 483082980e81da74e9d6fc6893a257cf, type: 2}
     - target: {fileID: 6038598820703743021, guid: b58d45e2d4eafd448872c1829a2bc3ae,
         type: 3}
       propertyPath: m_Pivot.x
