@@ -14,6 +14,11 @@ public class BattleSystem : MonoBehaviour
     public GameObject enemyPrefab;
     public GameObject scytheAttacks;
     public GameObject webAttacks;
+    public GameObject healAnim;
+
+    public GameObject disableButtonA;
+    public GameObject disableButtonB;
+
 
 
     public Animator attackThingamabob;
@@ -54,8 +59,12 @@ public class BattleSystem : MonoBehaviour
         playerHUD.SetHUD(playerUnit);
         enemyHUD.SetHUD(enemyUnit);
 
+
+
         yield return new WaitForSeconds(2f);
         
+
+    
 
         state = BattleState.PLAYERTURN;
         PlayerTurn();
@@ -64,10 +73,20 @@ public class BattleSystem : MonoBehaviour
 
     IEnumerator PlayerAttack()
     {
+        //disable button after attack is pressed?
+
+
+
         bool isDead = enemyUnit.TakeDamage(playerUnit.damage);
         enemyHUD.SetHP(enemyUnit.currentHP);
 
         dialogueText.text = "Hell yeah, my attack hit!";
+
+        Button otherButton = disableButtonA.GetComponent<Button>();
+        otherButton.interactable = false;
+        Button otherButtonB = disableButtonB.GetComponent<Button>();
+        otherButtonB.interactable = false;
+
 
         scytheAttacks.SetActive(true);
         attackThingamabob.SetBool("ScytheHit", true);
@@ -101,6 +120,11 @@ public class BattleSystem : MonoBehaviour
         yield return new WaitForSeconds(1f);
         webAttacks.SetActive(false);
 
+        Button otherButton = disableButtonA.GetComponent<Button>();
+        otherButton.interactable = true;
+        Button otherButtonB = disableButtonB.GetComponent<Button>();
+        otherButtonB.interactable = true;
+
         if (isDead)
         {
             state = BattleState.LOST;
@@ -124,6 +148,13 @@ public class BattleSystem : MonoBehaviour
 
     IEnumerator PlayerHeal()
     {
+
+        Button otherButton = disableButtonA.GetComponent<Button>();
+        otherButton.interactable = false;
+        Button otherButtonB = disableButtonB.GetComponent<Button>();
+        otherButtonB.interactable = false;
+
+        healAnim.SetActive(true);
         playerUnit.Heal(20);
         playerHUD.SetHP(playerUnit.currentHP);
         dialogueText.text = "I focus my strength. I can feel my power growing!";
@@ -131,6 +162,7 @@ public class BattleSystem : MonoBehaviour
         yield return new WaitForSeconds (2f);
 
         state = BattleState.ENEMYTURN;
+        healAnim.SetActive(false);
         StartCoroutine(EnemyTurn());
     }
 

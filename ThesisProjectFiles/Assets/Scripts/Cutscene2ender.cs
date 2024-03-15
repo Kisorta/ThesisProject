@@ -7,6 +7,8 @@ public class Cutscene2ender : MonoBehaviour
 
     public GameObject fakeCanvas;
     public GameObject realCanvas;
+    public float lengthOfClip;
+    public float waitToDelete;
 
 
     void Start()
@@ -17,9 +19,9 @@ public class Cutscene2ender : MonoBehaviour
   
   IEnumerator WaitToStartBattle()
   {
-    yield return new WaitForSeconds(13f);
+    yield return new WaitForSeconds(lengthOfClip);
     realCanvas.SetActive(true);
-    yield return new WaitForSeconds(3f);
+    yield return new WaitForSeconds(waitToDelete);
     fakeCanvas.SetActive(false);
   }
 }
