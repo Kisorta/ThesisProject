@@ -622,7 +622,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 0.68
   Loop: 0
   Mute: 0
@@ -1197,7 +1197,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 0.68
   Loop: 0
   Mute: 0
@@ -2451,7 +2451,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 0.68
   Loop: 0
   Mute: 0
@@ -5052,7 +5052,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 0.68
   Loop: 0
   Mute: 0
@@ -5251,7 +5251,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 0.68
   Loop: 0
   Mute: 0
@@ -5447,7 +5447,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 0.68
   Loop: 0
   Mute: 0
@@ -10908,6 +10908,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 700786340}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &700786342 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6993357490065207922, guid: cf77478d047df7c4f86bee64526deeb8,
+    type: 3}
+  m_PrefabInstance: {fileID: 700786340}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26e54e5a728a9234ab24fcf1460ed8a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &703003764
 GameObject:
   m_ObjectHideFlags: 0
@@ -11099,7 +11111,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 0.68
   Loop: 0
   Mute: 0
@@ -14227,6 +14239,78 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1012504923}
   m_CullTransparentMesh: 1
+--- !u!1 &1039490266
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1039490268}
+  - component: {fileID: 1039490267}
+  m_Layer: 0
+  m_Name: PauseManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1039490267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039490266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31ffaf07f3301c54ba18265f0d7af637, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsToCheck:
+  - {fileID: 1124280483}
+  - {fileID: 1750691883}
+  - {fileID: 1062441501}
+  - {fileID: 1616384320}
+  - {fileID: 1288694929}
+  - {fileID: 1480538025}
+  - {fileID: 2124953411}
+  - {fileID: 620558229}
+  - {fileID: 806632928}
+  - {fileID: 68385964}
+  - {fileID: 96945112}
+  - {fileID: 1785567893}
+  - {fileID: 1965696607}
+  - {fileID: 615381399}
+  - {fileID: 1137045639}
+  - {fileID: 261675443}
+  - {fileID: 516012182}
+  - {fileID: 1174871490}
+  - {fileID: 1201075320}
+  - {fileID: 100578656}
+  - {fileID: 2035489405}
+  - {fileID: 703245488}
+  - {fileID: 558605471}
+  - {fileID: 1085192942}
+  - {fileID: 1787880805}
+  - {fileID: 2627088753333319211}
+  componentToDisable: {fileID: 700786342}
+--- !u!4 &1039490268
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039490266}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 246.64142, y: 355.68082, z: -4.26629}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1062441501
 GameObject:
   m_ObjectHideFlags: 0
@@ -14645,7 +14729,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 0.68
   Loop: 0
   Mute: 0
@@ -15563,7 +15647,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 0.68
   Loop: 0
   Mute: 0
@@ -17512,7 +17596,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 0.68
   Loop: 0
   Mute: 0
@@ -18202,7 +18286,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 0.68
   Loop: 0
   Mute: 0
@@ -19531,7 +19615,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 0.68
   Loop: 0
   Mute: 0
@@ -19939,7 +20023,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 0.68
   Loop: 0
   Mute: 0
@@ -20138,7 +20222,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 0.68
   Loop: 0
   Mute: 0
@@ -29021,7 +29105,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 0.68
   Loop: 0
   Mute: 0

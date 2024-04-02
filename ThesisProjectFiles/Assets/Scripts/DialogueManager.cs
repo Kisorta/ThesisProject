@@ -26,11 +26,7 @@ public class DialogueManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Keyboard.current.spaceKey.wasPressedThisFrame)        
-        {
-            // No need to check for text completion here
-            // The coroutine itself handles advancing to the next line
-        }
+       
     }
 
     void StartDialogue()
